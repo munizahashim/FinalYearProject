@@ -1,0 +1,43 @@
+Final year project Presentation for the Canadian visitors 
+
+points 
+
+Why is this important
+
+1. Help fair transaction:
+The tool developed from this project would empower both buyers and sellers with data-driven insights, leading to more informed decision-making processes in the real estate market. This project will provide some insights into how certain factors are affecting the prices of hpouses in bishkek, which the promote transperency in real estate market, which is importnat for fair transaction
+
+2. Economical aspect of Real Estate business
+Real estate is a significant part of the Kyrgyz economy, and understanding price determinants can help in predicting market trends, which is vital for economic planning and investment strategies.
+
+3. Accessibility of Information: Making the information and resources available on GitHub allows for educational purposes, which could benefit students, researchers, and industry professionals.
+
+4. Community Impact: By facilitating fair transactions, the tool can contribute positively to the community, ensuring that homeowners and renters are neither overpaying nor underselling their properties.
+
+
+Objectives 
+1. Proposing a Predictive Model: The project intends to design and propose a predictive model that can accurately forecast house prices in Bishkek, Kyrgyzstan. The predictive model would likely use historical data, market trends, and other relevant variables to make informed predictions about future house prices. The aim is to reduce uncertainty for buyers, sellers, and investors, thereby creating a more stable and predictable market.
+
+2. Selecting Best Machine Learning Algorithms: To achieve a reliable predictive model, the project would involve evaluating various machine learning algorithms. This includes determining which algorithms perform best in terms of accuracy, efficiency, and scalability for the specific use case of house price prediction. Algorithms might range from simpler linear regressions to more complex ensemble methods or neural networks, depending on what works best with the data.
+
+3. Build a Web Platform: The final objective is to translate the predictive model into a practical tool by building a user-friendly web platform. This platform would enable users to input property-related parameters and receive price predictions. It serves as the interface between the complex data models and end-users, making the insights accessible to non-technical stakeholders. The platform would also potentially serve as an educational resource by providing access to the datasets and methodologies used in the project.
+
+
+Proposed abstract model of the project 
+
+1. Data Acquisition: This is the first step where data is collected from a sources. So i downloaded it from kaggle, which had 10000 observation and around 14 unique featrues. Azamat Kibekbaev, a Senior Data Scientist and his recent works have focused on building machine learning models to predict customer’s loan defaults. He collected the data for his peronal use in 2023 and made is accessible for the public on Kaggle.
+Data Pre-Processing: Once the data is acquired, it needs to be prepared for analysis. This step involves cleaning the data to remove errors or irrelevant information, dealing with missing values, and sometimes transforming variables to a form more suitable for modeling. Feature engineering is also part of this stage, where new variables are created from the raw data to help the model make better predictions.
+
+Prediction Module: This refers to the core of the project where the actual predictive modeling takes place. Machine learning algorithms are trained using the pre-processed data to create a model that can predict outcomes, in this case, house prices. Different algorithms and models may be tested to find the one that offers the best predictions.
+
+Performance Evaluation: After training models, their performance needs to be evaluated to ensure they make accurate predictions. This often involves using statistical methods to compare the predicted values against actual outcomes using a separate test dataset. Metrics such as Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and R-squared values are commonly used to quantify model performance.
+
+Application: The final step is to implement the best-performing predictive model into a practical application. For real estate price predictions, this often means creating a user interface where clients can input property details and receive price estimates. The application is the end-product delivered to users, providing them with valuable predictions based on the model.
+
+
+
+Normalization (Min-Max Scaler): Scaling features to a range, typically [0, 1], so that they can be compared on the same scale, which is crucial for many algorithms that are sensitive to the scale of input data.
+
+Standardization (Standard Scaler): Transforming data to have a mean of zero and a standard deviation of one, which also helps in comparing features on the same scale and is beneficial for algorithms that assume data is normally distributed.
+
+Hot Encoding: Categorical variables (like district names) are converted into numerical form through one-hot encoding
